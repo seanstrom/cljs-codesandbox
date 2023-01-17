@@ -1,0 +1,19 @@
+{
+  "name": "cljs-dev-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "cljs-dev": "shadow-cljs watch :app",
+    "js-dev": "parcel serve -p 1255 src/index.html",
+    "cljs-prod": "shadow-cljs release :app --pseudo-names",
+    "js-prod": "parcel build --dist-dir public src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "shadow-cljs": "^2.20.18"
+  }
+}

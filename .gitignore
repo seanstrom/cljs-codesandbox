@@ -1,0 +1,9 @@
+node_modules/
+.clj-kondo/
+.shadow-cljs/
+dist/
+cljs-dist/
+.lsp/
+.parcel-cache/
+public/
+.nrepl-port
